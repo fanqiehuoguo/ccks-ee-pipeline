@@ -6,7 +6,8 @@ import json
 import re
 import random
 import logging
-
+import sys
+sys.path.append("..")
 from utils import STR2IO, set_logger
 SEED = 2020
 SRC_DATA_DIR = Path('../ccks 4_1 Data')

@@ -61,7 +61,7 @@ class Params:
         self.root_path = Path(os.path.abspath(os.path.dirname(__file__)))
         self.data_dir = self.root_path / 'data'
         self.params_path = self.root_path / 'experiments'
-        self.bert_model_dir = self.root_path.parent.parent.parent / 'pre_model_roberta_base'
+        self.bert_model_dir = self.root_path.parent.parent / 'bert'/ 'pytorch'/ 'chinese_roberta_wwm_ext_pytorch'
         self.model_dir = self.root_path / 'model'
 
         # 读取保存的data
@@ -69,9 +69,12 @@ class Params:
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.n_gpu = torch.cuda.device_count()
 
-        self.train_batch_size = 156
-        self.val_batch_size = 128
-        self.test_batch_size = 128
+        # self.train_batch_size = 156
+        # self.val_batch_size = 128
+        # self.test_batch_size = 128
+        self.train_batch_size = 16
+        self.val_batch_size = 16
+        self.test_batch_size = 16
 
         # patience策略
         self.patience = 0.001

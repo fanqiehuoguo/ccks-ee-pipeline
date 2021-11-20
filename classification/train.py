@@ -4,7 +4,7 @@
 import os
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 # 参数解析器
@@ -186,7 +186,7 @@ if __name__ == '__main__':
         params.n_gpu = n_gpu
     else:
         # 设置模型使用的gpu
-        torch.cuda.set_device(1)
+        torch.cuda.set_device(0)
         # 查看现在使用的设备
         print('current device:', torch.cuda.current_device())
         n_gpu = 1
@@ -205,7 +205,7 @@ if __name__ == '__main__':
 
     # Prepare model
     logging.info('Init pre-train model...')
-    config = RobertaConfig.from_pretrained(params.bert_model_dir / 'config.json', output_hidden_states=True)
+    config = RobertaConfig.from_pretrained(str(params.bert_model_dir / 'config.json'), output_hidden_states=True)
     model = BertSequenceClassifier.from_pretrained(params.bert_model_dir,
                                                    config=config, params=params)
     model.to(params.device)

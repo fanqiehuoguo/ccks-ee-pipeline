@@ -1,0 +1,193 @@
+2021-11-20 16:16:14,458:INFO: Model type: classification
+2021-11-20 16:16:14,458:INFO: device: cuda
+2021-11-20 16:16:14,458:INFO: Init pre-train model...
+2021-11-20 16:22:46,022:INFO: Model type: classification
+2021-11-20 16:22:46,023:INFO: device: cuda
+2021-11-20 16:22:46,023:INFO: Init pre-train model...
+2021-11-20 16:24:47,573:INFO: Model type: classification
+2021-11-20 16:24:47,574:INFO: device: cuda
+2021-11-20 16:24:47,574:INFO: Init pre-train model...
+2021-11-20 16:26:08,043:INFO: Model type: classification
+2021-11-20 16:26:08,043:INFO: device: cuda
+2021-11-20 16:26:08,043:INFO: Init pre-train model...
+2021-11-20 16:26:28,624:INFO: Model type: classification
+2021-11-20 16:26:28,624:INFO: device: cuda
+2021-11-20 16:26:28,624:INFO: Init pre-train model...
+2021-11-20 16:27:59,920:INFO: Model type: classification
+2021-11-20 16:27:59,920:INFO: device: cuda
+2021-11-20 16:27:59,920:INFO: Init pre-train model...
+2021-11-20 16:28:57,469:INFO: Model type: classification
+2021-11-20 16:28:57,469:INFO: device: cuda
+2021-11-20 16:28:57,469:INFO: Init pre-train model...
+2021-11-20 16:28:57,469:INFO: loading configuration file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\config.json
+2021-11-20 16:28:57,470:INFO: Model config RobertaConfig {
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "directionality": "bidi",
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+2021-11-20 16:28:57,470:INFO: loading weights file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\pytorch_model.bin
+2021-11-20 16:28:59,472:INFO: Weights of BertSequenceClassifier not initialized from pretrained model: ['dym_weight', 'classifier.weight', 'classifier.bias']
+2021-11-20 16:28:59,472:INFO: Weights from pretrained model not used in BertSequenceClassifier: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2021-11-20 16:28:59,767:INFO: -done
+2021-11-20 16:28:59,768:INFO: Starting training for 2 epoch(s)
+2021-11-20 16:28:59,768:INFO: Model name 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased, bert-base-finnish-cased-v1, bert-base-finnish-uncased-v1, bert-base-dutch-cased). Assuming 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' is a path, a model identifier, or url to a directory containing tokenizer files.
+2021-11-20 16:28:59,768:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\added_tokens.json. We won't load it.
+2021-11-20 16:28:59,769:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\special_tokens_map.json. We won't load it.
+2021-11-20 16:28:59,769:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\tokenizer_config.json. We won't load it.
+2021-11-20 16:28:59,769:INFO: loading file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\vocab.txt
+2021-11-20 16:28:59,769:INFO: loading file None
+2021-11-20 16:28:59,769:INFO: loading file None
+2021-11-20 16:28:59,770:INFO: loading file None
+2021-11-20 16:39:57,856:INFO: Model type: classification
+2021-11-20 16:39:57,857:INFO: device: cuda
+2021-11-20 16:39:57,857:INFO: Init pre-train model...
+2021-11-20 16:39:57,857:INFO: loading configuration file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\config.json
+2021-11-20 16:39:57,858:INFO: Model config RobertaConfig {
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "directionality": "bidi",
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+2021-11-20 16:39:57,858:INFO: loading weights file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\pytorch_model.bin
+2021-11-20 16:39:59,816:INFO: Weights of BertSequenceClassifier not initialized from pretrained model: ['dym_weight', 'classifier.weight', 'classifier.bias']
+2021-11-20 16:39:59,817:INFO: Weights from pretrained model not used in BertSequenceClassifier: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2021-11-20 16:40:00,060:INFO: -done
+2021-11-20 16:40:00,060:INFO: Starting training for 2 epoch(s)
+2021-11-20 16:40:00,061:INFO: Model name 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased, bert-base-finnish-cased-v1, bert-base-finnish-uncased-v1, bert-base-dutch-cased). Assuming 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' is a path, a model identifier, or url to a directory containing tokenizer files.
+2021-11-20 16:40:00,061:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\added_tokens.json. We won't load it.
+2021-11-20 16:40:00,062:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\special_tokens_map.json. We won't load it.
+2021-11-20 16:40:00,062:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\tokenizer_config.json. We won't load it.
+2021-11-20 16:40:00,062:INFO: loading file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\vocab.txt
+2021-11-20 16:40:00,062:INFO: loading file None
+2021-11-20 16:40:00,062:INFO: loading file None
+2021-11-20 16:40:00,062:INFO: loading file None
+2021-11-20 16:41:46,303:INFO: Epoch 1/2
+2021-11-20 16:45:55,545:INFO: Model type: classification
+2021-11-20 16:45:55,545:INFO: device: cuda
+2021-11-20 16:45:55,546:INFO: Init pre-train model...
+2021-11-20 16:45:55,546:INFO: loading configuration file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\config.json
+2021-11-20 16:45:55,546:INFO: Model config RobertaConfig {
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "directionality": "bidi",
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+2021-11-20 16:45:55,547:INFO: loading weights file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\pytorch_model.bin
+2021-11-20 16:45:57,520:INFO: Weights of BertSequenceClassifier not initialized from pretrained model: ['dym_weight', 'classifier.weight', 'classifier.bias']
+2021-11-20 16:45:57,520:INFO: Weights from pretrained model not used in BertSequenceClassifier: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2021-11-20 16:45:57,759:INFO: -done
+2021-11-20 16:45:57,760:INFO: Starting training for 2 epoch(s)
+2021-11-20 16:45:57,760:INFO: Model name 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased, bert-base-finnish-cased-v1, bert-base-finnish-uncased-v1, bert-base-dutch-cased). Assuming 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' is a path, a model identifier, or url to a directory containing tokenizer files.
+2021-11-20 16:45:57,760:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\added_tokens.json. We won't load it.
+2021-11-20 16:45:57,761:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\special_tokens_map.json. We won't load it.
+2021-11-20 16:45:57,761:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\tokenizer_config.json. We won't load it.
+2021-11-20 16:45:57,761:INFO: loading file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\vocab.txt
+2021-11-20 16:45:57,761:INFO: loading file None
+2021-11-20 16:45:57,761:INFO: loading file None
+2021-11-20 16:45:57,761:INFO: loading file None
+2021-11-20 16:46:02,452:INFO: Epoch 1/2
+2021-11-20 16:49:28,286:INFO: Model type: classification
+2021-11-20 16:49:28,286:INFO: device: cuda
+2021-11-20 16:49:28,287:INFO: Init pre-train model...
+2021-11-20 16:49:28,287:INFO: loading configuration file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\config.json
+2021-11-20 16:49:28,287:INFO: Model config RobertaConfig {
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "directionality": "bidi",
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "roberta",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 1,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+2021-11-20 16:49:28,288:INFO: loading weights file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\pytorch_model.bin
+2021-11-20 16:49:30,240:INFO: Weights of BertSequenceClassifier not initialized from pretrained model: ['dym_weight', 'classifier.weight', 'classifier.bias']
+2021-11-20 16:49:30,240:INFO: Weights from pretrained model not used in BertSequenceClassifier: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2021-11-20 16:49:30,479:INFO: -done
+2021-11-20 16:49:30,479:INFO: Starting training for 2 epoch(s)
+2021-11-20 16:49:30,479:INFO: Model name 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased, bert-base-finnish-cased-v1, bert-base-finnish-uncased-v1, bert-base-dutch-cased). Assuming 'D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch' is a path, a model identifier, or url to a directory containing tokenizer files.
+2021-11-20 16:49:30,480:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\added_tokens.json. We won't load it.
+2021-11-20 16:49:30,480:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\special_tokens_map.json. We won't load it.
+2021-11-20 16:49:30,480:INFO: Didn't find file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\tokenizer_config.json. We won't load it.
+2021-11-20 16:49:30,481:INFO: loading file D:\python\PycharmProject\bert\pytorch\chinese_roberta_wwm_ext_pytorch\vocab.txt
+2021-11-20 16:49:30,481:INFO: loading file None
+2021-11-20 16:49:30,481:INFO: loading file None
+2021-11-20 16:49:30,481:INFO: loading file None
+2021-11-20 16:49:35,132:INFO: Epoch 1/2
